@@ -1,2 +1,4 @@
 # Compiler Design
- 
+In this project we implemented a compiler for a programming language similar to C. We utilized two powerful tools, Flex and Bison, to implement the key components of our compiler, lexical analyzer and syntax analyzer. We used Flex to build a lexical analyzer. This tool helps breaking down the source code into meaningful tokens such as keywords, identifiers, numbers, and symbols. The second component is the syntax analyzer, implemented with Bison. This tool takes the tokens produced by Flex and checks if they form a valid and structured program according to the language's grammar rules.
+
+This project was done in collaboration with @fatemeshafiee.
